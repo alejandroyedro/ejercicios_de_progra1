@@ -8,8 +8,8 @@
 # 8 Ingresar 10 números enteros. Determinar el máximo y el mínimo.
 
 # Anexo:
-# Solicitar al usuario que ingrese como mínimo 5 números. Calcular la suma de los números ingresados y el promedio de los mismos.
-# Solicitar al usuario que ingrese 5 números como mínimo y como máximo 10. Calcular la suma de los números ingresados y el promedio de los mismos.
+#  9 Solicitar al usuario que ingrese como mínimo 5 números. Calcular la suma de los números ingresados y el promedio de los mismos.
+# 10 Solicitar al usuario que ingrese 5 números como mínimo y como máximo 10. Calcular la suma de los números ingresados y el promedio de los mismos.
 
 # Integrador While
 # Realizar un programa que permita que el usuario ingrese todos los números que desee. Una vez finalizada la carga determinar:
@@ -121,4 +121,27 @@
 # El maximo es {maximo}
 # El minimo es {minimo} 
 # ''')
+
+# ejercicio 9 
+
+# contador8 = 1
+# continuar = True
+# minimo = 0
+# suma = 0
+# while contador8 < 5 or continuar == True:
+#     numero = int(input("ingrese un numero: "))
+#     suma += numero
+#     contador8 += 1
+#     if contador8 >= 5:
+#         cortar = input("desea seguir ingresando numeros? (si/no) ")
+#         if cortar == "no":
+#             continuar = False
+# promedio = suma / contador8
+
+# print(f'''
+# La suma de los numeros ingresados {suma}
+# El promedio de los numeros ingresados es {promedio}
+# ''')
+
+ejercicio 10
 
