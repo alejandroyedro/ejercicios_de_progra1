@@ -99,6 +99,26 @@
 # print(f"la suma de los numeros positivos ingresados es {suma5}")
 # print(f"el producto de los numeros negativos ingresados es {producto}")
 
-ejercicio 8 
+# # ejercicio 8 
 
+# contador7 = 0
+# maximo = 0
+# minimo = 0
+# while contador7 <= 10:
+#     numero = int(input("ingrese un numero: "))
+
+#     if contador7 == 0:
+#         maximo = numero
+#         minimo = numero
+#     else:
+#         if numero > maximo:
+#             maximo = numero
+#         elif numero < minimo:
+#             minimo = numero
+#     contador7 += 1
+
+# print(f'''
+# El maximo es {maximo}
+# El minimo es {minimo} 
+# ''')
 
